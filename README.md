@@ -6,9 +6,7 @@ Kjo lëndë zhvillohet në vitin e dytë të studimeve Master i Shkencave në Te
 
 ##G1 
 
-Anëtari 1
-
-Anëtari 2
+Anëtari 1, Anëtari 2, ...
 
 ##G2
 

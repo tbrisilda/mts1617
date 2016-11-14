@@ -4,6 +4,9 @@ Kjo lëndë zhvillohet në vitin e dytë të studimeve Master i Shkencave në Te
 
 #Grupet e Punës të Studentëve
 
+##G1
+Ermelinda Kovaçi, Fatjona Myftari, Jonida Kapllani, Indrit Hasa.
+
 ##G3
 Alketa Guxha, Anxhela Kosta, Brisilda Topllari, Eljona Kenaj.
 

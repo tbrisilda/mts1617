@@ -4,6 +4,9 @@ Kjo lëndë zhvillohet në vitin e dytë të studimeve Master i Shkencave në Te
 
 #Grupet e Punës të Studentëve
 
+##G2
+Arbër Çoku, Irdi Dinja, Lidia Dishnica, Marena Kuteli.
+
 ##G3
 Alketa Guxha, Anxhela Kosta, Brisilda Topllari, Eljona Kenaj.
 

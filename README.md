@@ -9,3 +9,6 @@ Alketa Guxha, Anxhela Kosta, Brisilda Topllari, Eljona Kenaj.
 
 ##G4
 Aurel Zefi, Alisa Cala, Mikela Hallaci.
+
+##G11
+Suada Koci, Denisa Tota, Aida Dhima

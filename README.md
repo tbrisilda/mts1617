@@ -16,5 +16,8 @@ Aurel Zefi, Alisa Cala, Mikela Hallaci.
 ##G5
 Eneida Hoxha, Ermir Hoxhaj, Ornela Cerpja, Enea Aliko.
 
+##G6
+Anxhela Cani, Elina Jaupllari, Jurgen Muho, Meljo Jaupaj
+
 ##G7
 Albi hoxha, Dorjan Spahiu,Aida Tafa,Elvira Sula

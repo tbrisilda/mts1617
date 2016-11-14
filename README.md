@@ -12,3 +12,7 @@ Aurel Zefi, Alisa Cala, Mikela Hallaci.
 
 ##G5
 Eneida Hoxha, Ermir Hoxhaj, Ornela Cerpja, Enea Aliko.
+
+##G9
+
+Alesio Bita, Anxhelo Sako, Ardit Arapi, Donald Cake .

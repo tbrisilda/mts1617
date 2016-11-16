@@ -34,3 +34,10 @@ Alesio Bita, Anxhelo Sako, Ardit Arapi, Donald Cake
 
 ##G10
 Romina Shqypi, Sidorela Balla,Sotiraq Nikolla,Pasho Toska
+
+##G11
+
+Aida Dhima, Denisa Tota, Suada Stojku
+
+##G12
+Serxhio Hyka, Elvis Jani, Robert Kurila, Dorian Doda

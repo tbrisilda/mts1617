@@ -24,3 +24,6 @@ Albi hoxha, Dorjan Spahiu,Aida Tafa,Elvira Sula
 
 ##G8
 Orgesa Beqiri, Silvi Stasa, Sokol Damani
+
+##G10
+Romina Shqypi, Sidorela Balla,Sotiraq Nikolla,Pasho Toska

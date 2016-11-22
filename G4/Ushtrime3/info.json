@@ -1,0 +1,17 @@
+[
+	{	
+		"address": "aurel.zefi@fshnstudent.info",
+		"subject": "Hi Aurel!",
+		"body": "This is a test email from G4."
+	},
+	{
+		"address": "alisa.cala@fshnstudent.info",
+		"subject": "Hi Alisa!",
+		"body": "This is a test email from G4."
+	},
+	{
+		"address": "mikela.hallaci@fshnstudent.info",
+		"subject": "Hi Mikela!",
+		"body": "This is a test email from G4."		
+	}			
+]

@@ -1,1 +1,378 @@
+//Program.cs
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Net.Mail;
+using System.Net;
+using System.ComponentModel;
+using System.Threading.Tasks;
+
+namespace ProgramiDergoEmail
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(KlasaEmail.DergoEmail());
+
+            Console.ReadKey();
+
+        }
+    }
+}
+
+//Lexo skedarin
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+using System.Threading.Tasks;
+
+namespace ProgramiDergoEmail
+{
+   public class LexoSkedarin
+    {
+        public static List<string> values = new List<string>();
+        public static string line;
+        public static string mesazh;
+
+        public static string LexoAdresen()
+        {
+            var reader = new StreamReader(File.OpenRead(@"D:\shembull1.csv"));
+            line = reader.ReadLine();
+            values.Add(line.Split(',')[0]);
+            return values[0];
+        }
+        public static string LexoSubjektin()
+    {
+        var reader = new StreamReader(File.OpenRead(@"D:\shembull1.csv"));
+
+        line = reader.ReadLine();
+        values.Add(line.Split(',')[1]);
+        return values[1];
+
+    }
+
+    public static string LexoTrupin()
+    {
+        var reader = new StreamReader(File.OpenRead(@"D:\shembull1.csv"));
+
+        line = reader.ReadLine();
+        values.Add(line.Split(',')[2]);
+        return values[2];
+    
+    }
+
+    public static string Gjendja(string s)
+    {
+
+        mesazh = s;
+        return mesazh;
+    }
+}
+
+}
+//Klasa Email
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Net.Mail;
+
+using System.ComponentModel;
+
+using System.Threading.Tasks;
+
+namespace ProgramiDergoEmail
+
+
+{
+    
+    public class KlasaEmail
+        
+    { 
+
+       
+        public static bool DergoEmail()
+        {
+            MailMessage mail = new MailMessage();
+            SmtpClient client = new SmtpClient();
+            client.Port = 587;
+            client.DeliveryMethod = System.Net.Mail.SmtpDeliveryMethod.Network;
+            client.UseDefaultCredentials = false;
+            client.Host = "smtp.gmail.com";
+            client.EnableSsl = true;
+            client.Credentials = new System.Net.NetworkCredential("hasa.indrit@gmail.com", "en!!9940808");
+            client.Timeout = 10000;
+            mail.From = new MailAddress("hasa.indrit@gmail.com");
+            mail.To.Add(new MailAddress(LexoSkedarin.LexoAdresen()));
+            mail.Subject = LexoSkedarin.LexoSubjektin();
+            mail.Body = LexoSkedarin.LexoTrupin();
+            RuajDb r = new RuajDb();
+            
+            try
+            {
+                client.Send(mail);
+                r.Ruaj();
+                RuajDb.cmd.Parameters.AddWithValue("@gjendja", RuajDb.Gjendja("Me sukses"));
+                RuajDb.cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception )
+            {
+                r.Ruaj();
+                RuajDb.cmd.Parameters.AddWithValue("@gjendja", RuajDb.Gjendja("Gabim"));
+                RuajDb.cmd.ExecuteNonQuery();
+
+                return false;
+            }
+
+          
+        }
+    }
+}
+
+//Ruatja ne Databaze
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Net;
+using System.Data;
+using System.ComponentModel;
+using System.Data.SqlClient;
+using System.Threading.Tasks;
+
+namespace ProgramiDergoEmail
+{
+   public class RuajDb
+    {
+        public static SqlConnection con;
+        public static SqlCommand cmd;
+        public static string mesazh;
+
+        public void Ruaj()
+        {
+
+
+            con = new SqlConnection(@"Data Source=localhost;Initial Catalog=shembull;Integrated Security=True");
+            con.Open();
+            cmd = new SqlCommand("insert into  [dbo].[email] (adresa,subjekti,trupi,gjendja) values(@adresa,@subjekti,@trupi,@gjendja)", con);
+            cmd.Parameters.AddWithValue("@adresa",LexoSkedarin.LexoAdresen());
+            cmd.Parameters.AddWithValue("@subjekti", LexoSkedarin.LexoSubjektin());
+            cmd.Parameters.AddWithValue("@trupi", LexoSkedarin.LexoTrupin());
+        
+        }
+
+        public static string Gjendja(string s)
+        {
+            mesazh = s;
+            return mesazh;
+
+        }
+
+
+    }
+}
+
+
+Program Unit Test
+//Testimi i LexoSkedar
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ProgramiDergoEmail;
+using System.IO;
+using System.Threading.Tasks;
+
+
+namespace ProgramiEmailTest
+{
+    [TestClass]
+   public  class LexoSkedarinTest
+    {
+        [TestMethod]
+        public static string DuhetKthejeAdresen()
+        { 
+            var rezultati = LexoSkedarin.LexoAdresen();
+            
+            return rezultati;
+        }
+        [TestMethod]
+        public static string DuhetKthejeSubjektin()
+        {
+            var rezultati = LexoSkedarin.LexoSubjektin();
+            
+            return rezultati;
+        }
+        [TestMethod]
+        public static string DuhetKthejeTrupin()
+        {
+            var rezultati = LexoSkedarin.LexoTrupin();
+            
+            return rezultati;
+        }
+
+       
+
+    }
+}
+//Testimi i KlasesEmail
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ProgramiDergoEmail;
+
+
+namespace ProgramiEmailTest
+{
+    [TestClass]
+   public class KlasaEmailTe
+    {
+        [TestMethod]
+
+        public static bool DergoEmailTest()
+        {
+            var rezultati = KlasaEmail.DergoEmail();
+            return rezultati;
+            
+
+
+        }
+
+    }
+}
+
+//Testimi i Klases Databaze
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ProgramiDergoEmail;
+using System.IO;
+using System.Threading.Tasks;
+using System.Net;
+
+
+namespace ProgramiEmailTest
+{  
+    [TestClass]
+   public  class DatabazaTest
+    {
+        [TestMethod]
+        public static bool FutTedhenaTest ()
+        {
+            var re = KlasaEmail.DergoEmail();
+            return re;
+        }
+    }
+}
+
+
+Testimi i NUnit
+
+//Klasa Skedar
+
+using NUnit.Framework;
+using ProgramiEmailTest;
+
+namespace ProgramiEmail.NUnitTest
+{
+    [TestFixture]
+
+    class LexoSkedarNunit
+    {
+        [Test]
+        public void DuhetKthejeAdresenNunit()
+        {
+            var rezultati = LexoSkedarinTest.DuhetKthejeAdresen();
+            var vlera = "";
+            Assert.That(rezultati, Is.EqualTo(vlera));
+        }
+        [Test]
+        public void DuhetKthejeSubjektinNunit()
+        {
+            var rezultati = LexoSkedarinTest.DuhetKthejeSubjektin();
+            var vlera = "last";
+            Assert.AreNotSame(vlera, rezultati);
+            
+        }
+        [Test]
+        public void DuhetKthejeTrupiNunit()
+        {
+            var rezultati = LexoSkedarinTest.DuhetKthejeTrupin();
+            var vlera = "dorzimdetyre";
+            Assert.That(rezultati, Is.EqualTo(vlera));
+
+        }
+   
+
+    }
+}
+
+
+//Klasa Email
+
+
+using NUnit.Framework;
+using ProgramiEmailTest;
+
+namespace ProgramiEmail.NUnitTest
+{
+    [TestFixture]
+
+    class KlasaEmailNunit
+    {
+        [Test]
+        public static void DergoEmailNunitTest()
+
+        {
+            var rez = KlasaEmailTe.DergoEmailTest();
+            bool vlera = false;
+            Assert.That(rez, Is.EqualTo(vlera));
+
+
+        
+        }
+        
+    }
+}
+
+//Klasa Databaze
+using NUnit.Framework;
+using ProgramiEmailTest;
+
+
+namespace ProgramiEmail.NUnitTest
+
+{
+    [TestFixture]
+
+    class DatabazaTestNunit
+    {
+        [Test]
+        public static void FutTedhenaTestNunitTest()
+        {
+            string db = DatabazaTest.FutTedhenaTest().ToString();
+            string gl = "gabim";
+            Assert.AreEqual(gl, db);
+
+        }
+
+    }
+}
+
+
+
+
 

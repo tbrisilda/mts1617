@@ -1,0 +1,10 @@
+c:\users\jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiEmailTest\bin\Debug\ProgramiEmailTest.dll
+c:\users\jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiEmailTest\bin\Debug\ProgramiEmailTest.pdb
+c:\users\jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiEmailTest\bin\Debug\ProgramiDergoEmail.exe
+c:\users\jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiEmailTest\bin\Debug\ProgramiDergoEmail.pdb
+c:\users\jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiEmailTest\obj\Debug\ProgramiEmailTest.csprojResolveAssemblyReference.cache
+c:\users\jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiEmailTest\obj\Debug\ProgramiEmailTest.dll
+c:\users\jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiEmailTest\obj\Debug\ProgramiEmailTest.pdb
+C:\Users\Jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiEmailTest\bin\Debug\Moq.dll
+C:\Users\Jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiEmailTest\bin\Debug\Moq.pdb
+C:\Users\Jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiEmailTest\bin\Debug\Moq.xml

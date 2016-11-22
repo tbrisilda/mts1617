@@ -1,0 +1,20 @@
+Email 1
+Adresa : "aida.dhima@fshnstudent.info
+Subjekti : Detyra3
+Trupi :
+Miredita,
+Bashkangjitur eshte detyra 3
+
+Email 2
+Adresa : suada.koci@fshnstudent.info
+Subjekti : Detyra3
+Trupi :
+Pershendetje,
+Bashkamgjitur eshte detyra 3."
+
+Email 3
+Adresa : denisa.tota@fshnstudent.info
+Subjekti : Detyra3
+Trupi :
+Pershendetje,
+Bashkamgjitur eshte detyra 3."

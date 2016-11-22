@@ -17,6 +17,7 @@ Alketa Guxha, Anxhela Kosta, Brisilda Topllari, Eljona Kenaj.
 ##G4
 Aurel Zefi, Alisa Cala, Mikela Hallaci.
 
+<<<<<<< HEAD
 ##G5
 Eneida Hoxha, Ermir Hoxhaj, Ornela Cerpja, Enea Aliko.
 
@@ -41,3 +42,7 @@ Aida Dhima, Denisa Tota, Suada Stojku
 
 ##G12
 Serxhio Hyka, Elvis Jani, Robert Kurila, Dorian Doda
+=======
+##G11
+Suada Koci, Denisa Tota, Aida Dhima
+>>>>>>> refs/heads/pr/31

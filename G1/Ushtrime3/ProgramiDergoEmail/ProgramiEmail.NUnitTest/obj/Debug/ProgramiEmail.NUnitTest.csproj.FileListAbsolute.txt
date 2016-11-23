@@ -1,0 +1,11 @@
+C:\Users\Jona\Documents\Visual Studio 2013\Projects\ProgramiDergoEmail\ProgramiEmail.NUnitTest\bin\Debug\ProgramiEmail.NUnitTest.dll
+C:\Users\Jona\Documents\Visual Studio 2013\Projects\ProgramiDergoEmail\ProgramiEmail.NUnitTest\bin\Debug\ProgramiEmail.NUnitTest.pdb
+C:\Users\Jona\Documents\Visual Studio 2013\Projects\ProgramiDergoEmail\ProgramiEmail.NUnitTest\obj\Debug\ProgramiEmail.NUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Jona\Documents\Visual Studio 2013\Projects\ProgramiDergoEmail\ProgramiEmail.NUnitTest\obj\Debug\ProgramiEmail.NUnitTest.dll
+C:\Users\Jona\Documents\Visual Studio 2013\Projects\ProgramiDergoEmail\ProgramiEmail.NUnitTest\obj\Debug\ProgramiEmail.NUnitTest.pdb
+C:\Users\Jona\Documents\Visual Studio 2013\Projects\ProgramiDergoEmail\ProgramiEmail.NUnitTest\bin\Debug\nunit.framework.dll
+C:\Users\Jona\Documents\Visual Studio 2013\Projects\ProgramiDergoEmail\ProgramiEmail.NUnitTest\bin\Debug\ProgramiDergoEmail.exe
+C:\Users\Jona\Documents\Visual Studio 2013\Projects\ProgramiDergoEmail\ProgramiEmail.NUnitTest\bin\Debug\ProgramiDergoEmail.pdb
+C:\Users\Jona\Documents\Visual Studio 2013\Projects\ProgramiDergoEmail\ProgramiEmail.NUnitTest\bin\Debug\nunit.framework.xml
+C:\Users\Jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiEmail.NUnitTest\bin\Debug\ProgramiEmailTest.dll
+C:\Users\Jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiEmail.NUnitTest\bin\Debug\ProgramiEmailTest.pdb

@@ -1,0 +1,9 @@
+Ushtrimet u zgjidhen me informacione te marra nga:
+
+https://phpunit.de/manual/current/en/test-doubles.html#test-doubles.stubs
+http://jes.st/2011/testing-using-mocks-stubs-phpunit/
+https://phpunit.de/manual/current/en/appendixes.assertions.html#appendixes.assertions.assertJsonFileEqualsJsonFile
+https://phpunit.de/manual/current/en/appendixes.assertions.html#appendixes.assertions.assertTrue
+https://phpunit.de/manual/current/en/appendixes.assertions.html#appendixes.assertions.assertEquals
+https://www.youtube.com/watch?v=4BXpi7056RM
+https://jtreminio.com/2013/03/unit-testing-tutorial-part-4-mock-objects-stub-methods-dependency-injection/

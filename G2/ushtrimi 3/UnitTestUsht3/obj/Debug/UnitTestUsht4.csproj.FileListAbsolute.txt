@@ -1,0 +1,17 @@
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\UnitTestUsht4\obj\Debug\UnitTestUsht4.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\UnitTestUsht4\bin\Debug\xunit.execution.desktop.dll
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\UnitTestUsht4\bin\Debug\UnitTestUsht4.dll
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\UnitTestUsht4\bin\Debug\UnitTestUsht4.pdb
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\UnitTestUsht4\bin\Debug\usht4.dll
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\UnitTestUsht4\bin\Debug\usht4.pdb
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\UnitTestUsht4\obj\Debug\UnitTestUsht4.dll
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\UnitTestUsht4\obj\Debug\UnitTestUsht4.pdb
+C:\Users\Arber\Desktop\Arbri vb test\UnitTestUsht4\bin\Debug\xunit.execution.desktop.dll
+C:\Users\Arber\Desktop\Arbri vb test\UnitTestUsht4\bin\Debug\UnitTestUsht4.dll
+C:\Users\Arber\Desktop\Arbri vb test\UnitTestUsht4\bin\Debug\UnitTestUsht4.pdb
+C:\Users\Arber\Desktop\Arbri vb test\UnitTestUsht4\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Arber\Desktop\Arbri vb test\UnitTestUsht4\bin\Debug\usht4.dll
+C:\Users\Arber\Desktop\Arbri vb test\UnitTestUsht4\bin\Debug\usht4.pdb
+C:\Users\Arber\Desktop\Arbri vb test\UnitTestUsht4\obj\Debug\UnitTestUsht4.csprojResolveAssemblyReference.cache
+C:\Users\Arber\Desktop\Arbri vb test\UnitTestUsht4\obj\Debug\UnitTestUsht4.dll
+C:\Users\Arber\Desktop\Arbri vb test\UnitTestUsht4\obj\Debug\UnitTestUsht4.pdb

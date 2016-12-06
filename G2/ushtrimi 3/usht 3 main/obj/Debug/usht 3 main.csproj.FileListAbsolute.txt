@@ -1,0 +1,18 @@
+C:\Users\Arber\Desktop\Arbri vb test\usht 4 main\bin\Debug\xunit.execution.desktop.dll
+C:\Users\Arber\Desktop\Arbri vb test\usht 4 main\bin\Debug\usht 4 main.exe.config
+C:\Users\Arber\Desktop\Arbri vb test\usht 4 main\bin\Debug\usht 4 main.exe
+C:\Users\Arber\Desktop\Arbri vb test\usht 4 main\bin\Debug\usht 4 main.pdb
+C:\Users\Arber\Desktop\Arbri vb test\usht 4 main\bin\Debug\usht4.dll
+C:\Users\Arber\Desktop\Arbri vb test\usht 4 main\bin\Debug\usht4.pdb
+C:\Users\Arber\Desktop\Arbri vb test\usht 4 main\obj\Debug\usht 3 main.csprojResolveAssemblyReference.cache
+C:\Users\Arber\Desktop\Arbri vb test\usht 4 main\obj\Debug\usht 4 main.exe
+C:\Users\Arber\Desktop\Arbri vb test\usht 4 main\obj\Debug\usht 4 main.pdb
+C:\Users\Arber\Desktop\Arbri vb test\usht 3 main\bin\Debug\xunit.execution.desktop.dll
+C:\Users\Arber\Desktop\Arbri vb test\usht 3 main\bin\Debug\usht 4 main.exe.config
+C:\Users\Arber\Desktop\Arbri vb test\usht 3 main\bin\Debug\usht 4 main.exe
+C:\Users\Arber\Desktop\Arbri vb test\usht 3 main\bin\Debug\usht 4 main.pdb
+C:\Users\Arber\Desktop\Arbri vb test\usht 3 main\bin\Debug\usht4.dll
+C:\Users\Arber\Desktop\Arbri vb test\usht 3 main\bin\Debug\usht4.pdb
+C:\Users\Arber\Desktop\Arbri vb test\usht 3 main\obj\Debug\usht 3 main.csprojResolveAssemblyReference.cache
+C:\Users\Arber\Desktop\Arbri vb test\usht 3 main\obj\Debug\usht 4 main.exe
+C:\Users\Arber\Desktop\Arbri vb test\usht 3 main\obj\Debug\usht 4 main.pdb

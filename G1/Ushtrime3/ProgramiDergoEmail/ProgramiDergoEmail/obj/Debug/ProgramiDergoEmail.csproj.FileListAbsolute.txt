@@ -1,0 +1,10 @@
+c:\users\jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiDergoEmail\bin\Debug\ProgramiDergoEmail.exe.config
+c:\users\jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiDergoEmail\bin\Debug\ProgramiDergoEmail.exe
+c:\users\jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiDergoEmail\bin\Debug\ProgramiDergoEmail.pdb
+c:\users\jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiDergoEmail\obj\Debug\ProgramiDergoEmail.exe
+c:\users\jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiDergoEmail\obj\Debug\ProgramiDergoEmail.pdb
+C:\Users\Jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiDergoEmail\bin\Debug\Castle.Core.dll
+C:\Users\Jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiDergoEmail\bin\Debug\Moq.dll
+C:\Users\Jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiDergoEmail\bin\Debug\Castle.Core.xml
+C:\Users\Jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiDergoEmail\bin\Debug\Moq.xml
+C:\Users\Jona\documents\visual studio 2013\Projects\ProgramiDergoEmail\ProgramiDergoEmail\obj\Debug\ProgramiDergoEmail.csprojResolveAssemblyReference.cache

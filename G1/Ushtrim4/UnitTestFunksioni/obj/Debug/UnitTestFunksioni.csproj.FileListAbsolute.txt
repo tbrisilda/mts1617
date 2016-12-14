@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2013\Projects\ProgramiFunk\UnitTestFunksioni\obj\Debug\UnitTestFunksioni.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\ProgramiFunk\UnitTestFunksioni\bin\Debug\UnitTestFunksioni.dll
+c:\users\user\documents\visual studio 2013\Projects\ProgramiFunk\UnitTestFunksioni\bin\Debug\UnitTestFunksioni.pdb
+c:\users\user\documents\visual studio 2013\Projects\ProgramiFunk\UnitTestFunksioni\bin\Debug\nunit.framework.dll
+c:\users\user\documents\visual studio 2013\Projects\ProgramiFunk\UnitTestFunksioni\bin\Debug\ProgramiFunk.exe
+c:\users\user\documents\visual studio 2013\Projects\ProgramiFunk\UnitTestFunksioni\bin\Debug\ProgramiFunk.pdb
+c:\users\user\documents\visual studio 2013\Projects\ProgramiFunk\UnitTestFunksioni\bin\Debug\nunit.framework.xml
+c:\users\user\documents\visual studio 2013\Projects\ProgramiFunk\UnitTestFunksioni\obj\Debug\UnitTestFunksioni.dll
+c:\users\user\documents\visual studio 2013\Projects\ProgramiFunk\UnitTestFunksioni\obj\Debug\UnitTestFunksioni.pdb

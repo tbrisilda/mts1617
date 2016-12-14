@@ -1,0 +1,5 @@
+c:\users\user\documents\visual studio 2013\Projects\ProgramiFunk\ProgramiFunk\bin\Debug\ProgramiFunk.exe.config
+c:\users\user\documents\visual studio 2013\Projects\ProgramiFunk\ProgramiFunk\bin\Debug\ProgramiFunk.exe
+c:\users\user\documents\visual studio 2013\Projects\ProgramiFunk\ProgramiFunk\bin\Debug\ProgramiFunk.pdb
+c:\users\user\documents\visual studio 2013\Projects\ProgramiFunk\ProgramiFunk\obj\Debug\ProgramiFunk.exe
+c:\users\user\documents\visual studio 2013\Projects\ProgramiFunk\ProgramiFunk\obj\Debug\ProgramiFunk.pdb

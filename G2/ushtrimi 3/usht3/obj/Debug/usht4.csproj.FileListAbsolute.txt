@@ -1,0 +1,28 @@
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\usht4\bin\Debug\xunit.execution.desktop.dll
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\usht4\bin\Debug\usht4.dll
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\usht4\bin\Debug\usht4.pdb
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\usht4\bin\Debug\xunit.abstractions.dll
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\usht4\bin\Debug\xunit.assert.dll
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\usht4\bin\Debug\xunit.core.dll
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\usht4\bin\Debug\xunit.abstractions.xml
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\usht4\bin\Debug\xunit.assert.pdb
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\usht4\bin\Debug\xunit.assert.xml
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\usht4\bin\Debug\xunit.core.pdb
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\usht4\bin\Debug\xunit.core.xml
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\usht4\obj\Debug\usht4.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\usht4\obj\Debug\usht4.dll
+C:\Users\hp\Desktop\arbri mirmbajtje softi dhe test\usht4\obj\Debug\usht4.pdb
+C:\Users\Arber\Desktop\Arbri vb test\usht4\bin\Debug\xunit.execution.desktop.dll
+C:\Users\Arber\Desktop\Arbri vb test\usht4\bin\Debug\usht4.dll
+C:\Users\Arber\Desktop\Arbri vb test\usht4\bin\Debug\usht4.pdb
+C:\Users\Arber\Desktop\Arbri vb test\usht4\bin\Debug\xunit.abstractions.dll
+C:\Users\Arber\Desktop\Arbri vb test\usht4\bin\Debug\xunit.assert.dll
+C:\Users\Arber\Desktop\Arbri vb test\usht4\bin\Debug\xunit.core.dll
+C:\Users\Arber\Desktop\Arbri vb test\usht4\bin\Debug\xunit.abstractions.xml
+C:\Users\Arber\Desktop\Arbri vb test\usht4\bin\Debug\xunit.assert.pdb
+C:\Users\Arber\Desktop\Arbri vb test\usht4\bin\Debug\xunit.assert.xml
+C:\Users\Arber\Desktop\Arbri vb test\usht4\bin\Debug\xunit.core.pdb
+C:\Users\Arber\Desktop\Arbri vb test\usht4\bin\Debug\xunit.core.xml
+C:\Users\Arber\Desktop\Arbri vb test\usht4\obj\Debug\usht4.csprojResolveAssemblyReference.cache
+C:\Users\Arber\Desktop\Arbri vb test\usht4\obj\Debug\usht4.dll
+C:\Users\Arber\Desktop\Arbri vb test\usht4\obj\Debug\usht4.pdb

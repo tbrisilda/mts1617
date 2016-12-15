@@ -1,0 +1,6 @@
+Referencat e përdorura për zgjidhjen e ushtrimeve të detyrë 5:
+
+[1] Leksioni 6 -Testimi Njësi i Sistemeve të Bazuara në Web 
+[2] MINK --> Link-u përkatës http://apigen.juzna.cz/doc/Behat/Mink/index.html
+[3] PHP Unit Manual --> Link-u përkatës https://phpunit.de/manual/4.8/en/index.html
+[4] Welcome to the MINK Documentation -->Link-u përkatës http://mink.behat.org/en/latest/s

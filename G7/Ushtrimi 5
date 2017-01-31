@@ -1,0 +1,202 @@
+//Ustrimi 1(ToodledoTest.php)
+<?php
+
+class ToodledoTest extends PHPUnit_Framework_TestCase
+{
+    protected $driver;
+    protected $session;
+
+    protected function setUp()
+    {
+        
+        //You can get the key and secret here: https://testingbot.com/members/user/edit
+        $key = '<?php
+
+class DblpTest extends PHPUnit_Framework_TestCase
+{
+    protected $driver;
+    protected $session;
+
+    protected function setUp()
+    {
+        $this->driver = new \Behat\Mink\Driver\GoutteDriver();
+        $this->session = new \Behat\Mink\Session($this->driver);
+        $this->session->start();
+    }
+    
+
+    public function testSearch()
+    {
+        $this->session->visit("http://dblp.uni-trier.de/");
+        
+        $page = $this->session->getPage();
+        
+        $page->fillField('q', 'Tirana');
+        
+        $page->find("css", "#completesearch-form")->submit();
+        
+        $this->assertTrue($this->session->getPage()->hasContent("2nd International Conference on Recent Trends and Applications in Computer Science and Information Technology"));
+    }
+    
+    public function tearDown()
+    {
+        $this->session->stop();
+    }
+}';
+        $secret = '<?php
+
+class DblpTest extends PHPUnit_Framework_TestCase
+{
+    protected $driver;
+    protected $session;
+
+    protected function setUp()
+    {
+        $this->driver = new \Behat\Mink\Driver\GoutteDriver();
+        $this->session = new \Behat\Mink\Session($this->driver);
+        $this->session->start();
+    }
+    
+
+    public function testSearch()
+    {
+        $this->session->visit("http://dblp.uni-trier.de/");
+        
+        $page = $this->session->getPage();
+        
+        $page->fillField('q', 'Tirana');
+        
+        $page->find("css", "#completesearch-form")->submit();
+        
+        $this->assertTrue($this->session->getPage()->hasContent("2nd International Conference on Recent Trends and Applications in Computer Science and Information Technology"));
+    }
+    
+    public function tearDown()
+    {
+        $this->session->stop();
+    }
+}';
+        
+        $testingBotApiUrl = "http://{$key}:{$secret}@hub.testingbot.com/wd/hub";
+        
+        $this->driver = new \Behat\Mink\Driver\Selenium2Driver('chrome',
+            array("platform"=>"WINDOWS", "browserName"=>"chrome", "name" => "BehatTest"), $testingBotApiUrl);
+        $this->session = new \Behat\Mink\Session($this->driver);
+        $this->session->start();
+    }
+    
+    public function testSignup()
+    {
+        $this->session->visit("https://www.toodledo.com/signup.php");
+        
+        $page = $this->session->getPage();
+        
+        $page->fillField("email", "test.mts1617@bobmail.com");
+        $page->fillField("pass1", "mts1617");
+        $page->fillField("pass2", "mts1617");
+        $page->find('css', '#terms')->check();
+        $page->find("css", "#register")->click();
+        
+        $this->assertTrue($this->session->getPage()->hasContent('test.mts1617'));
+    }
+    
+    public function testAdd()
+    {
+        $this->session->visit("https://www.toodledo.com/signin.php");
+        $page = $this->session->getPage();
+        $page->fillField("email", "test.mts1617@bobmail.com");
+        $page->fillField("pass", "mts1617");
+        $page->find("css", "form")->submit();
+
+        $this->session->visit("https://www.toodledo.com/tasks/index.php");
+       
+        $this->session->getPage()->pressButton('nav_add');
+        
+        $this->session->getPage()->fillField("title", "test-task");
+        
+        $this->session->getPage()->find('css', 'form#formAddTask')->submit();
+        
+        $this->session->visit("https://www.toodledo.com/tasks/index.php");
+        
+        $this->assertTrue($this->session->getPage()->hasContent('test-task'));
+    }
+    
+    public function tearDown()
+    {
+        $this->session->reset();
+        $this->session->stop();
+    }
+    
+}
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+//ushtrimi 2 (ArsimiTest.php)
+<?php
+class ArsimiTest extends PHPUnit_Framework_TestCase
+{
+    protected $driver;
+    protected $session;
+    protected function setUp()
+    {
+        $this->driver = new \Behat\Mink\Driver\GoutteDriver();
+        $this->session = new \Behat\Mink\Session($this->driver);
+        $this->session->start();
+    }
+    
+    public function testSearch()
+    {
+        $this->session->visit("http://arsimi.gov.al");
+        $page = $this->session->getPage();
+        
+        $searchField = $page->findById('topSearchInput');
+        
+        if ($searchField)
+        {
+            $searchField->setValue("ligjet");
+            $page->find("css", ".searchSubmit")->click();
+            
+            $page = $this->session->getPage();
+            
+            $this->assertTrue($page->hasContent("Arsimi i Lartë"));
+            
+            $page->find('css', '.titleDetalils a')->click();
+            
+            $page = $this->session->getPage();
+            
+            $this->assertEquals($page->find("css", ".detailesTitle h1")->getText(), "Arsimi i Lartë");
+        }
+    }
+    
+    public function kliko(){
+        $this->session->visit("http://arsimi.gov.al");
+        $page=$this->session->getPage();
+        $this->assertContains('arsimi,$this->session->getTitle()');
+    }
+    public function testStruktura()
+    {
+        $this->session->visit("http://www.arsimi.gov.al/al/arsimi/universiteti");
+        
+        $this->assertTrue($this->session->getPage()->hasContent("Struktura e Vitit"));
+        
+        $this->session->getPage()->find("css", ".descPrioritati h2 a")->click();
+        
+        $this->assertTrue($this->session->getPage()->hasContent("PËR STRUKTURËN E VITIT AKADEMIK 2014"));
+    }
+    
+    public function tearDown()
+    {
+        $this->session->stop();
+    }
+}
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+//Referencat 
+http://mink.behat.org/en/latest/
+http://apigen.juzna.cz/doc/Behat/Mink/index.html
+https://phpunit.de/manual/4.8/en/index.html
+https://getcomposer.org/
+https://testingbot.com/support
+
